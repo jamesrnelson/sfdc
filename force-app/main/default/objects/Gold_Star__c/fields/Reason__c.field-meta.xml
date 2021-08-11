@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Good drinking habits</fullName>
+                <default>false</default>
+                <label>Good drinking habits</label>
+            </value>
+            <value>
+                <fullName>Good cleaning habits</fullName>
+                <default>false</default>
+                <label>Good cleaning habits</label>
+            </value>
+            <value>
+                <fullName>Good exercise habits</fullName>
+                <default>false</default>
+                <label>Good exercise habits</label>
+            </value>
+            <value>
+                <fullName>General good behavior</fullName>
+                <default>false</default>
+                <label>General good behavior</label>
+            </value>
+            <value>
+                <fullName>Penalty</fullName>
+                <default>false</default>
+                <label>Penalty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
