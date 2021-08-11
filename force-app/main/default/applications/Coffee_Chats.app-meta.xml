@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#684E35</headerColor>
+        <logo>jeremyyapjnHaGWe4ywunsplash</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Coffee Chats</label>
+    <navType>Console</navType>
+    <tabs>Session__c</tabs>
+    <tabs>Group__c</tabs>
+    <tabs>Participant__c</tabs>
+    <tabs>Unique_Pair__c</tabs>
+    <tabs>Group_Participant__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Coffee_Chats_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Group_Participant__c</tab>
+        </mappings>
+        <mappings>
+            <fieldName>Session__c</fieldName>
+            <tab>Group__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Participant__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Session__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Unique_Pair__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
